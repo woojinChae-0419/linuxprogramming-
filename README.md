@@ -34,7 +34,10 @@
 ![image](https://github.com/user-attachments/assets/b20804ce-c2a1-475e-934a-ad16ae44a026)
 
 ### Chapter7-4-Problem4
+![image](https://github.com/user-attachments/assets/cdd36815-c4da-4acc-b8f7-7dacd4763d35)
 
 ### Chapter7-4-Problem5
+![image](https://github.com/user-attachments/assets/6f1fb529-6f90-456c-8d46-d431ca5e6f30)
 
 ### Chapter7-4-Problem6
+![image](https://github.com/user-attachments/assets/1e89fac9-a0a8-4d9d-97da-7eca651ddb21)
