@@ -41,3 +41,40 @@
 
 ### Chapter7-4-Problem6
 ![image](https://github.com/user-attachments/assets/1e89fac9-a0a8-4d9d-97da-7eca651ddb21)
+
+### chapter8-2-Problem1
+SmartTV htv("192.0.0.1", 32);
+위 코드에서 htv 객체는 SmartTV 클래스의 생성자를 호출하여 생성됩니다. SmartTV는 WideTV로부터 상속받고, WideTV는 TV로부터 상속받는 구조를 가지므로 생성자가 호출되는 순서는 다음과 같습니다.
+
+생성자 호출 순서와 인수 전달 과정
+TV 생성자 호출:
+
+TV 클래스는 WideTV의 부모 클래스이므로 TV의 생성자가 제일 먼저 호출됩니다.
+SmartTV 생성자에서 WideTV(size, true)를 호출하는데, 여기서 size가 전달됩니다.
+WideTV의 생성자는 TV(size)를 통해 TV의 생성자를 호출하고, 이때 size 값(32)이 TV 생성자의 인수로 전달됩니다.
+결과적으로, TV(int size) 생성자가 호출되며 size가 32로 설정됩니다.
+
+WideTV 생성자 호출:
+
+TV 생성자가 완료된 후, WideTV 생성자가 호출됩니다.
+WideTV 생성자는 bool videoIn이라는 인수를 받는데, SmartTV 생성자에서 WideTV(size, true)로 호출했으므로 videoIn에는 true가 전달됩니다.
+결과적으로, WideTV(int size, bool videoIn) 생성자가 호출되어 videoIn 값이 true로 설정됩니다.
+
+SmartTV 생성자 호출:
+
+마지막으로 SmartTV 생성자가 호출됩니다.
+SmartTV 생성자는 string ipAddr와 int size라는 두 개의 인수를 받습니다. 여기서 "192.0.0.1"이 ipAddr에 전달되고 32가 size에 전달됩니다.
+SmartTV 생성자는 WideTV(size, true)를 호출하여 size와 true 값을 부모 클래스 생성자로 전달한 후, ipAddr 값을 "192.0.0.1"로 설정합니다.
+
+
+### Chapter8-2-Problem2
+![image](https://github.com/user-attachments/assets/d8443eaa-f777-4bbe-bbcb-c63f984ee277)
+
+### Chapter8-2-Problem3
+![image](https://github.com/user-attachments/assets/ff7d8ecf-a379-48d3-aa3a-a2389761c8f9)
+
+### Chapter8-2-Problem4
+
+
+### Chapter8-2-Problem5
+
