@@ -74,7 +74,8 @@ SmartTV 생성자는 WideTV(size, true)를 호출하여 size와 true 값을 부�
 ![image](https://github.com/user-attachments/assets/ff7d8ecf-a379-48d3-aa3a-a2389761c8f9)
 
 ### Chapter8-2-Problem4
-
+![image](https://github.com/user-attachments/assets/b1c1f7f9-aead-43a2-80a6-bd13ef83d286)
 
 ### Chapter8-2-Problem5
+![image](https://github.com/user-attachments/assets/abdb6fb5-c559-4205-9ee9-c4ab9e8a7ce4)
 
