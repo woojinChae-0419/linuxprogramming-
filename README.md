@@ -79,3 +79,54 @@ SmartTV 생성자는 WideTV(size, true)를 호출하여 size와 true 값을 부�
 ### Chapter8-2-Problem5
 ![image](https://github.com/user-attachments/assets/abdb6fb5-c559-4205-9ee9-c4ab9e8a7ce4)
 
+### Chapter10-2-Problem1
+
+### Chapter10-2-Problem2
+
+(1)
+template <class T> class Container {
+  T * p;
+  int size; 
+public:
+  Container(int n);
+  ~Container();
+  void set(int index, T value) { p[index] = value;}
+  T get(int index);
+  };
+  
+(2)
+
+template <class T>
+Container<T>::Container(int n){
+	p = new T[n];
+	size = n;
+}
+
+(3)
+
+template <class T>
+Container<T>::~Container(){
+	delete []p;
+}
+
+(4)
+
+template <class T>
+ T Container<T>::get(int index){
+ 	return p[index];
+ }
+ 
+(5)
+
+ Container<char> c(26);
+ 
+(6)
+int main() {
+    Container<char> c(26);
+    for(int i = 0 ; i < 26 ; i ++) {
+	      c.set(i , 'a' + i);
+   }
+    for(int i = 25 ; i >= 0 ; i --){
+	      cout << c.get(i);
+       }
+}
